@@ -1,11 +1,11 @@
 package com.kdg.petclinic.services.map;
 
 import com.kdg.petclinic.model.Vet;
-import com.kdg.petclinic.services.CrudService;
+import com.kdg.petclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
