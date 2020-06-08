@@ -19,12 +19,28 @@
     
 - Ops
     - Spring Boot Actuator
-    
+
+
+## Frontend Technologies
+- Less
+- WRO4J
+   
     
 ## Configuration
--  Create GitHub Repo
+- Create GitHub Repo
 - Configure SSH in Local to GitHub
 
+
+## Local Build
+- Clean the Project
+
+    `mvn clean`
+
+- Packaged the Project
+
+    `mvn package`
+
+- Run Application
 
 ## Release New Build for Deployment
 - Prepare the Build

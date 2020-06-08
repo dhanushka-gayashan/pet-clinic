@@ -52,5 +52,5 @@
     <scm>
         <developerConnection>scm:git:git@github.com:dhanushka-gayashan/pet-clinic.git</developerConnection>
         <tag>HEAD</tag>
-  </scm>
+    </scm>
 </project>
