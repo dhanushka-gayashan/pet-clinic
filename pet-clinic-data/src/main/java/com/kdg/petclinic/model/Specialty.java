@@ -11,15 +11,15 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "types")
-public class PetType extends BaseEntity{
+@Table(name = "specialties")
+public class Specialty extends BaseEntity{
 
-    @Column(name = "name")
-    private String name;
+    @Column(name = "description")
+    private String description;
 
     @Builder
-    public PetType(Long id, String name) {
+    public Specialty(Long id, String description) {
         super(id);
-        this.name = name;
+        this.description = description;
     }
 }
