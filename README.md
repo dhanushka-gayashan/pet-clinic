@@ -24,8 +24,19 @@
 ## Frontend Technologies
 - Less
 - WRO4J
-   
-    
+
+
+## Unit Testing Tools
+- JUnit 5
+- Mockito
+- MockMVC
+- Maven-Failsafe-Plugin (for Integration Testing)
+
+
+## CI Integration
+- Circle CI
+
+ 
 ## Configuration
 - Create GitHub Repo
 - Configure SSH in Local to GitHub

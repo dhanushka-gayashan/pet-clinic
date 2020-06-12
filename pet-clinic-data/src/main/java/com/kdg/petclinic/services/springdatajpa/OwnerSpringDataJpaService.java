@@ -16,13 +16,9 @@ import java.util.Set;
 public class OwnerSpringDataJpaService implements OwnerService {
 
     private final OwnerRepository ownerRepository;
-    private final PetRepository petRepository;
-    private final PetTypeRepository petTypeRepository;
 
-    public OwnerSpringDataJpaService(OwnerRepository ownerRepository, PetRepository petRepository, PetTypeRepository petTypeRepository) {
+    public OwnerSpringDataJpaService(OwnerRepository ownerRepository) {
         this.ownerRepository = ownerRepository;
-        this.petRepository = petRepository;
-        this.petTypeRepository = petTypeRepository;
     }
 
     @Override
