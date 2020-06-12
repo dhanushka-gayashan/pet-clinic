@@ -1,4 +1,5 @@
 # pet-clinic
+[![CircleCI](https://circleci.com/gh/dhanushka-gayashan/recipe.svg?style=svg)](https://circleci.com/gh/dhanushka-gayashan/recipe)
 
 
 ## Dependencies
